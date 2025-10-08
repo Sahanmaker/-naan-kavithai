@@ -1,0 +1,19 @@
+/* style.css — Naan Kavithai */
+:root { --accent:#ff6b35; --muted:#666; --bg:#fff; --maxw:980px; }
+*{box-sizing:border-box}
+body{font-family:'Noto Serif Tamil', serif;background:#fbfbfb;color:#222;margin:0}
+.container{max-width:var(--maxw);margin:0 auto;padding:18px}
+.site-header{background:#222;color:#fff;padding:20px 0;text-align:center}
+.site-title{margin:0;font-size:28px}
+.site-sub{margin:4px 0 10px;color:#ddd}
+.main-nav a{color:#fff;margin:0 8px;text-decoration:none}
+.hero{background:#fff;padding:20px;border-radius:8px;box-shadow:0 6px 18px rgba(0,0,0,.05);margin-top:16px}
+.btn{display:inline-block;background:var(--accent);color:#fff;padding:10px 14px;border-radius:6px;text-decoration:none}
+.latest{margin-top:18px}
+.latest ul{padding-left:18px}
+.site-footer{margin-top:24px;padding:14px 0;background:#f4f4f4;text-align:center;color:var(--muted);font-size:14px}
+article.poem{background:#fff;padding:16px;border-radius:8px;margin-bottom:16px;box-shadow:0 6px 18px rgba(0,0,0,.04)}
+.poem pre{white-space:pre-wrap;font-size:18px;line-height:1.8;margin:0}
+
+/* Responsive */
+@media(max-width:700px){ .container{padding:12px} .site-title{font-size:22px} }
